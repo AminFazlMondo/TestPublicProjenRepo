@@ -19,7 +19,7 @@ const project = new cdk.JsiiProject({
     '@types/fs-extra',
   ],
   bundledDeps: [
-    // '@mondo/projen-common@latest',
+    '@mondo/projen-common',
     '@pact-foundation/pact-node',
     'fs-extra',
     'aws-sdk',

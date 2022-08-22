@@ -99,6 +99,10 @@
       "type": "build"
     },
     {
+      "name": "@mondo/projen-common",
+      "type": "bundled"
+    },
+    {
       "name": "@pact-foundation/pact-node",
       "type": "bundled"
     },

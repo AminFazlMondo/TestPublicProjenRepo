@@ -52,7 +52,7 @@
     "jsii-pacmak": "^1.65.0",
     "json-schema": "^0.4.0",
     "npm-check-updates": "^15",
-    "projen": "0.60",
+    "projen": "0.61",
     "standard-version": "^9",
     "ts-jest": "^27",
     "ts-node": "^10.9.1",
@@ -60,9 +60,10 @@
   },
   "peerDependencies": {
     "deployable-awscdk-app-ts": "^0.0.197",
-    "projen": "^0.60.18"
+    "projen": "^0.61.23"
   },
   "dependencies": {
+    "@mondo/projen-common": "2.14",
     "@pact-foundation/pact-node": "^10.17.6",
     "aws-sdk": "^2.1199.0",
     "change-case": "^4.1.2",
@@ -71,6 +72,7 @@
     "fs-extra": "^10.1.0"
   },
   "bundledDependencies": [
+    "@mondo/projen-common",
     "@pact-foundation/pact-node",
     "aws-sdk",
     "change-case",
